@@ -1,0 +1,24 @@
+{
+  "name": "8light",
+  "version": "1.0.0",
+  "description": "CLI Google Bookreader",
+  "main": "bin/index.js",
+  "bin": {
+    "index2": "./index2.js",
+    "set-index1": "./set-index2.js"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node bin/index2.js",
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "Dane",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "underscore": "^1.13.2",
+    "yargs": "13.2",
+    "type": "module"
+  }
+}
