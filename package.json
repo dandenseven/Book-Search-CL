@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "jest": "^27.4.6",
+    "nodemon": "^2.0.15"
+  }
+}
